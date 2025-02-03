@@ -10,13 +10,14 @@ List<Post> postData = [
     body: 'What are the main things you would do if you were given '
         '\$1,000,000?\n\n'
         'Is there anything stopping you from doing some of these things now?\n\n'
-        'When I asked myself this question, I could name some things which I could '
-        'do now, and the other things were things I could do now, but in a '
+        'When I asked myself this question, I could name things which I could '
+        'do immediately if I just reprioritise and make some adjustment.\n\n'
+        'The other things I would do are things I could do now, but in a '
         'different geographical location.\n\n'
         'Sometimes, we already have what we seek.\n\n'
         'If we can accept what we have, we can find peace.\n\n'
         '"It is not the person who has too little, but the one who craves '
-        'more, that is poor." - Seneca\n\n',
+        'more, that is poor." - Seneca',
   ),
   Post(
     title: 'Embrace Entropy',
