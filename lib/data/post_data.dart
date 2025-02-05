@@ -11,7 +11,7 @@ List<Post> postData = [
         '\$1,000,000?\n\n'
         'Is there anything stopping you from doing some of these things now?\n\n'
         'When I asked myself this question, I could name things which I could '
-        'do immediately if I just reprioritise and make some adjustment.\n\n'
+        'do immediately if I just reprioritise and make some adjustments.\n\n'
         'The other things I would do are things I could do now, but in a '
         'different geographical location.\n\n'
         'Sometimes, we already have what we seek.\n\n'
