@@ -3,6 +3,18 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Positive Thoughts',
+    datePosted: DateTime(2025, 2, 14),
+    image: 'images/1.png',
+    id: '165',
+    body: 'Most negative emotions and behaviours are striggered by negative '
+        'thoughts, or negative attitudes.\n\n'
+        'This can become a habit if done regularly.\n\n'
+        'Override this habit.\n\n'
+        'Be optimistic.\n\n'
+        'Be positive.',
+  ),
+  Post(
     title: 'The Lotto',
     datePosted: DateTime(2025, 2, 7),
     image: 'images/1.png',
