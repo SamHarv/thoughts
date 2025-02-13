@@ -7,10 +7,11 @@ List<Post> postData = [
     datePosted: DateTime(2025, 2, 14),
     image: 'images/1.png',
     id: '165',
-    body: 'Most negative emotions and behaviours are striggered by negative '
-        'thoughts, or negative attitudes.\n\n'
-        'This can become a habit if done regularly.\n\n'
-        'Override this habit.\n\n'
+    body: 'Negative emotions and behaviours tend to be striggered by negative '
+        'thoughts.\n\n'
+        'This can become a habit if it is not internally observed.\n\n'
+        'Notice this habit.\n\n'
+        'Override it.\n\n'
         'Be optimistic.\n\n'
         'Be positive.',
   ),
