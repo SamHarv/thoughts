@@ -8,6 +8,9 @@ List<Post> postData = [
     image: 'images/1.png',
     id: '166',
     body: 'Plant trees under which you do not expect to sit.\n\n'
+        'Invest in assets which you do not expect to benefit from.\n\n'
+        'Teach your children to be better than you.\n\n'
+        'Pay it forward.\n\n'
         'I can think of no better purpose in life than to facilitate happiness and '
         'prosperity for future generations.\n\n'
         'We should leave the world better than we found it.',
