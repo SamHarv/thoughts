@@ -3,6 +3,16 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Better Than We Found It',
+    datePosted: DateTime(2025, 2, 21),
+    image: 'images/1.png',
+    id: '166',
+    body: 'Plant trees under which you do not expect to sit.\n\n'
+        'I can think of no better purpose in life than to facilitate happiness and '
+        'prosperity for future generations.\n\n'
+        'We should leave the world better than we found it.',
+  ),
+  Post(
     title: 'Positive Thoughts',
     datePosted: DateTime(2025, 2, 14),
     image: 'images/1.png',
