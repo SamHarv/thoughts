@@ -2,6 +2,8 @@ import 'models/post_model.dart';
 
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
+  // Happiness is a byproduct of a strong sense of purpose
+  // Do not strive for happiness, find purpose
   Post(
     title: 'Better Than We Found It',
     datePosted: DateTime(2025, 2, 21),
