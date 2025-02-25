@@ -5,6 +5,14 @@ List<Post> postData = [
   // Happiness is a byproduct of a strong sense of purpose
   // Do not strive for happiness, find purpose
   Post(
+    title: 'A Sense of Purpose',
+    datePosted: DateTime(2025, 2, 28),
+    image: 'images/1.png',
+    id: '167',
+    body: 'Happiness is a byproduct of a strong sense of purpose.\n\n'
+        'Do not strive for happiness, find purpose.',
+  ),
+  Post(
     title: 'Better Than We Found It',
     datePosted: DateTime(2025, 2, 21),
     image: 'images/1.png',
