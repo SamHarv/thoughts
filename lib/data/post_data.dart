@@ -7,9 +7,9 @@ List<Post> postData = [
     datePosted: DateTime(2025, 3, 7),
     image: 'images/1.png',
     id: '168',
-    body: 'To improve, you must push beyond your current perceived limit.\n\n'
+    body: 'To improve, we must push beyond our current perceived limit.\n\n'
         'This means being uncomfortable and being willing to fail.\n\n'
-        'In all you do, you must stretch your capabilities to grow.',
+        'In all we do, we must stretch our capabilities to grow.',
   ),
   Post(
     title: 'A Sense of Purpose',
