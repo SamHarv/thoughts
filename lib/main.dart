@@ -13,9 +13,9 @@ import 'config/constants.dart';
 import 'data/models/post_model.dart';
 
 Future<void> main() async {
-  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
   // Preserving the splash screen while the app is loading
-  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+  // FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
@@ -25,7 +25,7 @@ Future<void> main() async {
   setPathUrlStrategy();
   runApp(ChangeNotifierProvider(
       child: const Thoughts(), create: (_) => FavouriteProvider()));
-  FlutterNativeSplash.remove();
+  // FlutterNativeSplash.remove();
 }
 
 class Thoughts extends StatelessWidget {
