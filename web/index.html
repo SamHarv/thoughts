@@ -17,6 +17,8 @@
   -->
   <base href="$FLUTTER_BASE_HREF">
 
+  <meta name="theme-color" content="#EEDEB7">
+
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A Public Journal.">
@@ -50,7 +52,7 @@
     body {
       margin: 0;
       min-height: 100%;
-      background-color: #EEDEB7;
+      background-color: #ffffff;
       background-image: url("splash/img/light-background.png");
       background-size: 100% 100%;
     }
@@ -115,20 +117,44 @@
   </style>
   <script id="splash-screen-script">
     function removeSplashFromWeb() {
-      const splash = document.getElementById("splash");
-      if (splash) {
-        splash.classList.add('remove-splash');
-        setTimeout(() => {
-          splash?.remove();
-          document.getElementById("splash-branding")?.remove();
-        }, 500);
-      }
+      document.getElementById("splash")?.remove();
+      document.getElementById("splash-branding")?.remove();
+      document.body.style.background = "transparent";
     }
-    // function removeSplashFromWeb() {
-    //   document.getElementById("splash")?.remove();
-    //   document.getElementById("splash-branding")?.remove();
-    //   // document.body.style.background = "transparent";
-    // }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      // Replace the img element with a GIF that's guaranteed to loop
+      const splashImg = document.querySelector('#splash img');
+      if (splashImg) {
+        const originalSrc = splashImg.getAttribute('src');
+
+        // Create a new animated GIF using JS
+        const loopingGif = document.createElement('img');
+        loopingGif.className = splashImg.className;
+        loopingGif.setAttribute('aria-hidden', 'true');
+        loopingGif.style.backgroundColor = 'transparent';
+
+        // Force looping by recreating the image
+        const img = new Image();
+        img.onload = function () {
+          loopingGif.src = originalSrc;
+
+          // Replace the original image with our looping one
+          splashImg.parentNode.replaceChild(loopingGif, splashImg);
+
+          // Create a timer to reload the GIF every time it would end
+          setInterval(() => {
+            // This forces the browser to reload and replay the GIF
+            const currentSrc = loopingGif.src;
+            loopingGif.src = 'about:blank';
+            setTimeout(() => {
+              loopingGif.src = currentSrc;
+            }, 10);
+          }, 2000); // Adjust this time based on your GIF duration
+        };
+        img.src = originalSrc;
+      }
+    });
   </script>
 </head>
 
@@ -151,8 +177,15 @@
 
 
 
+
+
+
+
+
+
+
   <script src="flutter_bootstrap.js" async=""></script>
-  <script>
+  <!-- <script>
     window.addEventListener('load', function (ev) {
       // Download main.dart.js
       _flutter.loader.load({
@@ -165,7 +198,13 @@
         return appRunner.runApp();
       });
     });
-  </script>
+  </script> -->
+
+
+
+
+
+
 
 
 

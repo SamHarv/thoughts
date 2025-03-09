@@ -22,11 +22,11 @@ class HomeView extends StatefulWidget {
 
 class _HomeViewState extends State<HomeView> {
   final url = UrlLauncher();
+
   @override
   void initState() {
+    FlutterNativeSplash.remove();
     super.initState();
-    Future.delayed(Duration(seconds: 3));
-    FlutterNativeSplash.remove(); // Remove splash screen
   }
 
   @override

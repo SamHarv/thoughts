@@ -1,5 +1,6 @@
 import 'package:beamer/beamer.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:provider/provider.dart';
@@ -13,9 +14,15 @@ import 'config/constants.dart';
 import 'data/models/post_model.dart';
 
 Future<void> main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+  // Set the status bar colour
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+        statusBarColor: Color.fromARGB(255, 238, 222, 183)),
+  );
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   // Preserving the splash screen while the app is loading
-  // FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
@@ -25,7 +32,6 @@ Future<void> main() async {
   setPathUrlStrategy();
   runApp(ChangeNotifierProvider(
       child: const Thoughts(), create: (_) => FavouriteProvider()));
-  // FlutterNativeSplash.remove();
 }
 
 class Thoughts extends StatelessWidget {
@@ -36,15 +42,18 @@ class Thoughts extends StatelessWidget {
     return Consumer(
       builder: (context, provider, child) {
         return MaterialApp.router(
-          theme: ThemeData(
-            useMaterial3: true,
-            colorSchemeSeed: colour,
-            scaffoldBackgroundColor: Color.fromARGB(1, 238, 222, 138),
+          theme: ThemeData.dark().copyWith(
+            colorScheme: ColorScheme.dark(
+              primary: Color.fromARGB(255, 238, 222, 138),
+              secondary: colour,
+            ),
+            scaffoldBackgroundColor: Color.fromARGB(255, 238, 222, 138),
+            appBarTheme: AppBarTheme(
+              color: Color.fromARGB(255, 238, 222, 138),
+              systemOverlayStyle: SystemUiOverlayStyle(
+                  statusBarColor: Color.fromARGB(255, 238, 222, 138)),
+            ),
           ),
-          darkTheme: ThemeData.dark(
-            useMaterial3: true,
-          ),
-          themeMode: ThemeMode.dark,
           routerDelegate: routerDelegate,
           routeInformationParser: BeamerParser(),
           debugShowCheckedModeBanner: false,
