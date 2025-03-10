@@ -17,14 +17,15 @@ Future<void> main() async {
   // Set the status bar colour
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
-      statusBarColor: Color.fromARGB(255, 238, 222, 183),
+      statusBarColor: colour,
       systemNavigationBarColor: Colors.transparent,
       systemNavigationBarDividerColor: Colors.transparent,
-      statusBarBrightness: Brightness.light,
+      statusBarBrightness: Brightness.dark,
       statusBarIconBrightness: Brightness.dark,
       systemNavigationBarContrastEnforced: false,
     ),
   );
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   // Preserving the splash screen while the app is loading
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
@@ -48,20 +49,13 @@ class Thoughts extends StatelessWidget {
     return Consumer(
       builder: (context, provider, child) {
         return MaterialApp.router(
-          theme: ThemeData.dark().copyWith(
+          theme: ThemeData(
+            primaryColor: colour,
             colorScheme: ColorScheme.dark(
-              primary: Color.fromARGB(255, 238, 222, 183),
-              secondary: colour,
+              primary: colour,
+              secondary: black,
             ),
-            scaffoldBackgroundColor: Color.fromARGB(255, 238, 222, 183),
-            appBarTheme: AppBarTheme(
-              color: Color.fromARGB(255, 238, 222, 183),
-              systemOverlayStyle: SystemUiOverlayStyle.dark.copyWith(
-                statusBarColor: Color.fromARGB(255, 238, 222, 183),
-                systemNavigationBarColor: color,
-                systemNavigationBarDividerColor: color,
-              ),
-            ),
+            scaffoldBackgroundColor: colour,
           ),
           routerDelegate: routerDelegate,
           routeInformationParser: BeamerParser(),

@@ -98,7 +98,7 @@ class _PostViewState extends State<PostView> {
                           ),
                           shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8)),
-                          backgroundColor: colour,
+                          backgroundColor: black,
                           action: SnackBarAction(
                             label: 'undo',
                             textColor: Colors.white,
@@ -116,7 +116,7 @@ class _PostViewState extends State<PostView> {
                   )
                 ],
                 iconTheme: const IconThemeData(
-                  color: colour,
+                  color: black,
                 ),
                 centerTitle: true,
                 // Display post title
@@ -185,7 +185,7 @@ class _PostViewState extends State<PostView> {
                           quarterTurns: 3,
                           child: Icon(
                             Icons.star,
-                            color: colour,
+                            color: black,
                           ),
                         ),
                       )
@@ -210,7 +210,7 @@ class _PostViewState extends State<PostView> {
                   },
                   icon: const Icon(
                     Icons.navigate_before_rounded,
-                    color: colour,
+                    color: black,
                   ),
                 ),
               ],
@@ -240,7 +240,7 @@ class _PostViewState extends State<PostView> {
                           quarterTurns: 1,
                           child: Icon(
                             Icons.star,
-                            color: colour,
+                            color: black,
                           ),
                         ),
                       )
@@ -265,7 +265,7 @@ class _PostViewState extends State<PostView> {
                   },
                   icon: const Icon(
                     Icons.navigate_next_rounded,
-                    color: colour,
+                    color: black,
                   ),
                 ),
               ],

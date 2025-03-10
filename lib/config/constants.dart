@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 /// Primary colour
-const colour = Colors.black;
-const color = Color.fromARGB(255, 238, 222, 183);
+const black = Colors.black;
+// const colour = Color.fromARGB(255, 238, 222, 183);
+const colour = Color(0xFFEEDEB7);
 
 /// Black O2Tech logo
 const logo = 'images/o2tech_black.png';
@@ -20,7 +21,7 @@ const emptyBox = SizedBox();
 
 final titleStyle = GoogleFonts.patrickHand(
   textStyle: const TextStyle(
-    color: colour,
+    color: black,
     fontSize: 26,
     fontFamily: 'Patrick Hand',
   ),
@@ -28,7 +29,7 @@ final titleStyle = GoogleFonts.patrickHand(
 
 final bodyStyle = GoogleFonts.patrickHand(
   textStyle: const TextStyle(
-    color: colour,
+    color: black,
     fontSize: 22,
     fontFamily: 'Patrick Hand',
   ),

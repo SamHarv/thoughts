@@ -48,7 +48,7 @@ class FavouritesPage extends StatelessWidget {
                   ),
                 ),
                 iconTheme: const IconThemeData(
-                  color: colour,
+                  color: black,
                 ),
                 centerTitle: true,
                 title: Text(
@@ -92,7 +92,7 @@ class FavouritesPage extends StatelessWidget {
                             shape: RoundedRectangleBorder(
                               borderRadius: BorderRadius.circular(8),
                             ),
-                            backgroundColor: colour,
+                            backgroundColor: black,
                             action: SnackBarAction(
                               label: 'undo',
                               textColor: Colors.white,
@@ -101,7 +101,7 @@ class FavouritesPage extends StatelessWidget {
                           );
                           ScaffoldMessenger.of(context).showSnackBar(snackBar);
                         },
-                        color: colour,
+                        color: black,
                       ),
                     ),
                   );

@@ -82,7 +82,7 @@ class _DadJokeWidgetState extends State<DadJokeWidget> {
     return Container(
       padding: kPadding,
       decoration: BoxDecoration(
-        border: Border.all(color: colour, width: 0.3),
+        border: Border.all(color: black, width: 0.3),
         color: Colors.transparent,
         borderRadius: BorderRadius.circular(8),
       ),
@@ -100,7 +100,7 @@ class _DadJokeWidgetState extends State<DadJokeWidget> {
                 child: isLoading
                     ? const Center(
                         child: CircularProgressIndicator(
-                        color: colour,
+                        color: black,
                       ))
                     : Text(
                         currentJoke,
@@ -113,12 +113,12 @@ class _DadJokeWidgetState extends State<DadJokeWidget> {
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   IconButton(
-                    icon: const Icon(Icons.refresh, color: colour),
+                    icon: const Icon(Icons.refresh, color: black),
                     onPressed: fetchRandomJoke,
                     tooltip: 'Get new joke',
                   ),
                   IconButton(
-                    icon: const Icon(Icons.copy, color: colour),
+                    icon: const Icon(Icons.copy, color: black),
                     onPressed: _copyToClipboard,
                     tooltip: 'Copy joke',
                   ),

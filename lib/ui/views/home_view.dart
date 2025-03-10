@@ -49,6 +49,8 @@ class _HomeViewState extends State<HomeView> {
             PreferredSize(
               preferredSize: appBarHeight,
               child: SliverAppBar(
+                systemOverlayStyle: SystemUiOverlayStyle(
+                    systemNavigationBarColor: Colors.transparent),
                 toolbarHeight: 120,
                 flexibleSpace: emptyBox,
                 backgroundColor: Colors.transparent,
@@ -79,7 +81,7 @@ class _HomeViewState extends State<HomeView> {
                   )
                 ],
                 iconTheme: const IconThemeData(
-                  color: colour,
+                  color: black,
                 ),
                 centerTitle: true,
                 title: Text(
@@ -118,11 +120,11 @@ class _HomeViewState extends State<HomeView> {
                         icon: provider.isInFavourites(post)
                             ? const Icon(
                                 Icons.star,
-                                color: colour,
+                                color: black,
                               )
                             : const Icon(
                                 Icons.star_border,
-                                color: colour,
+                                color: black,
                               ),
                         onPressed: () {
                           provider.toggleFavourite(post);
@@ -137,7 +139,7 @@ class _HomeViewState extends State<HomeView> {
                             ),
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(8)),
-                            backgroundColor: colour,
+                            backgroundColor: black,
                             action: SnackBarAction(
                               label: 'undo',
                               textColor: Colors.white,

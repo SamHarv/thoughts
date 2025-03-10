@@ -69,7 +69,7 @@ class PostTileWidget extends StatelessWidget {
                     ),
                   ),
                   Divider(
-                    color: colour,
+                    color: black,
                     thickness: 0.3,
                   )
                 ],

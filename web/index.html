@@ -18,6 +18,8 @@
   <base href="$FLUTTER_BASE_HREF">
 
   <meta name="theme-color" content="#EEDEB7">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#EEDEB7">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#EEDEB7">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -42,7 +44,14 @@
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer=""></script>
 
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    name="viewport">
+
+  <style>
+    body {
+      background-color: #EEDEB7;
+    }
+  </style>
 
   <style id="splash-screen-style">
     html {
@@ -53,7 +62,7 @@
       margin: 0;
       min-height: 100%;
       background-color: #EEDEB7;
-      background-image: url("splash/img/light-background.png");
+      /* background-image: url("splash/img/light-background.png"); */
       background-size: 100% 100%;
     }
 
@@ -106,14 +115,14 @@
       right: 0;
     }
 
-    #splash {
+    /* #splash {
       opacity: 1;
       transition: opacity 0.5s ease-in-out;
     }
 
     .remove-splash {
       opacity: 0 !important;
-    }
+    } */
   </style>
   <script id="splash-screen-script">
     function removeSplashFromWeb() {
@@ -150,7 +159,7 @@
             setTimeout(() => {
               loopingGif.src = currentSrc;
             }, 10);
-          }, 2000); // Adjust this time based on your GIF duration
+          }, 2000); // Adjust this time based on GIF duration
         };
         img.src = originalSrc;
       }
