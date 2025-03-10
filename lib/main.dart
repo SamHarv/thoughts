@@ -17,7 +17,13 @@ Future<void> main() async {
   // Set the status bar colour
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
-        statusBarColor: Color.fromARGB(255, 238, 222, 183)),
+      statusBarColor: Color.fromARGB(255, 238, 222, 183),
+      systemNavigationBarColor: Colors.transparent,
+      systemNavigationBarDividerColor: Colors.transparent,
+      statusBarBrightness: Brightness.light,
+      statusBarIconBrightness: Brightness.dark,
+      systemNavigationBarContrastEnforced: false,
+    ),
   );
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   // Preserving the splash screen while the app is loading
@@ -44,14 +50,17 @@ class Thoughts extends StatelessWidget {
         return MaterialApp.router(
           theme: ThemeData.dark().copyWith(
             colorScheme: ColorScheme.dark(
-              primary: Color.fromARGB(255, 238, 222, 138),
+              primary: Color.fromARGB(255, 238, 222, 183),
               secondary: colour,
             ),
-            scaffoldBackgroundColor: Color.fromARGB(255, 238, 222, 138),
+            scaffoldBackgroundColor: Color.fromARGB(255, 238, 222, 183),
             appBarTheme: AppBarTheme(
-              color: Color.fromARGB(255, 238, 222, 138),
-              systemOverlayStyle: SystemUiOverlayStyle(
-                  statusBarColor: Color.fromARGB(255, 238, 222, 138)),
+              color: Color.fromARGB(255, 238, 222, 183),
+              systemOverlayStyle: SystemUiOverlayStyle.dark.copyWith(
+                statusBarColor: Color.fromARGB(255, 238, 222, 183),
+                systemNavigationBarColor: color,
+                systemNavigationBarDividerColor: color,
+              ),
             ),
           ),
           routerDelegate: routerDelegate,

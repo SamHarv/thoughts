@@ -3,6 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 /// Primary colour
 const colour = Colors.black;
+const color = Color.fromARGB(255, 238, 222, 183);
 
 /// Black O2Tech logo
 const logo = 'images/o2tech_black.png';
