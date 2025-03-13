@@ -9,7 +9,7 @@ List<Post> postData = [
     id: '169',
     body: 'To maximise happiness, we must do things we do not want to do.\n\n'
         'We must seek discomfort.\n\n'
-        'This can not only lead to a sense of pride in what we have ahcieved, '
+        'This can not only lead to a sense of pride in what we have achieved, '
         'but also make us better appreciate the comforts in life.\n\n'
         'There can be no true comfort without first seeking discomfort.',
   ),
