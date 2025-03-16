@@ -3,6 +3,20 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Infinite Mindset',
+    datePosted: DateTime(2025, 3, 21),
+    image: 'images/1.png',
+    id: '170',
+    body: 'Many have a finite mindset, believing things are fixed and fearing '
+        'change.\n\n'
+        'This closes them off to new opportunities and gives them constant '
+        'stress in trying to resist the natural changes of the world.\n\n'
+        'Those with an infinite mindset embrace change and are able to '
+        'capitalise on opportunities.\n\n'
+        '"Those with a finite mindset fear surprises. Those with an infinite '
+        'mindset see opportunity in the unexpected" - Simon Sinek',
+  ),
+  Post(
     title: 'Uncomfortable',
     datePosted: DateTime(2025, 3, 14),
     image: 'images/1.png',
