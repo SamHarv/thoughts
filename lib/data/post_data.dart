@@ -3,6 +3,22 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Adapt',
+    datePosted: DateTime(2025, 3, 28),
+    image: 'images/1.png',
+    id: '171',
+    body: 'We as a species are adaptable by nature.\n\n'
+        'This is why we have evolved and succeeded to such an extent.\n\n'
+        'We are now in a time where we often do not need to be as adaptable.\n\n'
+        'We have the technology to change the world around us rather than change '
+        'ourselves.\n\n'
+        'I believe this is dangerous and can lead us to not handle change well.\n\n'
+        'Change is inevitable and not everything can be controlled.\n\n'
+        'Change what you can and accept and adapt to what you cannot.\n\n'
+        'If you do not bend, you will break.\n\n'
+        'Be adaptable.',
+  ),
+  Post(
     title: 'Infinite Mindset',
     datePosted: DateTime(2025, 3, 21),
     image: 'images/1.png',
