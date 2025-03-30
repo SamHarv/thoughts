@@ -3,6 +3,15 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Others\' Opinions',
+    datePosted: DateTime(2025, 4, 4),
+    image: 'images/1.png',
+    id: '172',
+    body:
+        '"Don\'t accept criticism from someone you wouldn\'t take advice from."'
+        ' - Greg McKeown',
+  ),
+  Post(
     title: 'Adapt',
     datePosted: DateTime(2025, 3, 28),
     image: 'images/1.png',
