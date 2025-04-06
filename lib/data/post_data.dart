@@ -3,6 +3,14 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Be Decisive',
+    datePosted: DateTime(2025, 4, 11),
+    image: 'images/1.png',
+    id: '173',
+    body: 'If you do not make a choice, someone else will for you.\n\n'
+        'We should rather be divisive than indecisive.',
+  ),
+  Post(
     title: 'Others\' Opinions',
     datePosted: DateTime(2025, 4, 4),
     image: 'images/1.png',
