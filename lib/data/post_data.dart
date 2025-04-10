@@ -7,7 +7,14 @@ List<Post> postData = [
     datePosted: DateTime(2025, 4, 11),
     image: 'images/1.png',
     id: '173',
-    body: 'If you do not make a choice, someone else will for you.\n\n'
+    body: 'If someone asks what we want, we should tell them.\n\n'
+        'Many of us fail to share what we want.\n\n'
+        'Not because we do not know, but because we do not want to upset the '
+        'person asking.\n\n'
+        'This may bother the person asking more than you telling them what you '
+        'actually want.\n\n'
+        'Make a decision, and make your preference known.\n\n'
+        'If you do not make a choice, someone else will for you.\n\n'
         'We should rather be divisive than indecisive.',
   ),
   Post(
