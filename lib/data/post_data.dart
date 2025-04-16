@@ -4,7 +4,7 @@ import 'models/post_model.dart';
 List<Post> postData = [
   Post(
     title: 'Narrow Your Focus',
-    datePosted: DateTime(2025, 4, 11),
+    datePosted: DateTime(2025, 4, 18),
     image: 'images/1.png',
     id: '174',
     body: '"Someone who chases two rabbits, catches neither" '
