@@ -10,6 +10,7 @@ List<Post> postData = [
     body: 'We should strive to learn.\n\n'
         'To learn is to grow.\n\n'
         'To grow is a just cause.\n\n'
+        'Learning can give us purpose.\n\n'
         'To learn; be curious, try, fail, reflect, and repeat.',
   ),
   Post(
