@@ -3,6 +3,16 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'To Learn',
+    datePosted: DateTime(2025, 4, 25),
+    image: 'images/1.png',
+    id: '175',
+    body: 'We should strive to learn.\n\n'
+        'To learn is to grow.\n\n'
+        'To grow is a just cause.\n\n'
+        'To learn; be curious, try, fail, reflect, and repeat.',
+  ),
+  Post(
     title: 'Narrow Your Focus',
     datePosted: DateTime(2025, 4, 18),
     image: 'images/1.png',
