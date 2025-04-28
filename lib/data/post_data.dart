@@ -3,6 +3,19 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Blame',
+    datePosted: DateTime(2025, 5, 2),
+    image: 'images/1.png',
+    id: '176',
+    body: 'We often expend a lot of energy finding out who to blame when '
+        'something goes wrong.\n\n'
+        'Some people never get out of this habit and therefore never take '
+        'responsibility for what happens to them moving forward.\n\n'
+        'If this is not recognised, this pattern will continue to occur.\n\n'
+        'When something goes wrong, we should focus our attention forward to solving '
+        'the problem and placing measures to prevent its future occurrence.',
+  ),
+  Post(
     title: 'To Learn',
     datePosted: DateTime(2025, 4, 25),
     image: 'images/1.png',
