@@ -7,13 +7,14 @@ List<Post> postData = [
     datePosted: DateTime(2025, 5, 2),
     image: 'images/1.png',
     id: '176',
-    body: 'We often expend a lot of energy finding out who to blame when '
-        'something goes wrong.\n\n'
-        'Some people never get out of this habit and therefore never take '
+    body: 'We often expend energy deciding who to blame when something goes '
+        'wrong.\n\n'
+        'Some never get out of this habit and therefore never take '
         'responsibility for what happens to them moving forward.\n\n'
-        'If this is not recognised, this pattern will continue to occur.\n\n'
-        'When something goes wrong, we should focus our attention forward to solving '
-        'the problem and placing measures to prevent its future occurrence.',
+        'If this is not recognised, the pattern will continue to occur.\n\n'
+        'When something goes wrong, we should focus our attention forward on solving '
+        'the problem and placing measures to prevent its future occurrence rather '
+        'than on placing blame.',
   ),
   Post(
     title: 'To Learn',
