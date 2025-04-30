@@ -12,7 +12,7 @@ List<Post> postData = [
         'Some never get out of this habit and therefore never take '
         'responsibility for what happens to them moving forward.\n\n'
         'If this is not recognised, the pattern will continue to occur.\n\n'
-        'When something goes wrong, we should focus our attention forward on solving '
+        'When something goes wrong, we should focus our attention on solving '
         'the problem and placing measures to prevent its future occurrence rather '
         'than on placing blame.',
   ),
