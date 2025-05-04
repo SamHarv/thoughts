@@ -3,6 +3,15 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Contentment',
+    datePosted: DateTime(2025, 5, 9),
+    image: 'images/1.png',
+    id: '177',
+    body: 'The key to peace and contentment is acceptance of what we cannot '
+        'control, a sense of purpose in what we can control, gratitude for what we '
+        'have, and mindfulness (presence) in all we do.',
+  ),
+  Post(
     title: 'Blame',
     datePosted: DateTime(2025, 5, 2),
     image: 'images/1.png',
