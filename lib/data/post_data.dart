@@ -3,6 +3,16 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Doubt',
+    datePosted: DateTime(2025, 5, 16),
+    image: 'images/1.png',
+    id: '178',
+    body: 'It is normal to have doubts as we push our own limits.\n\n'
+        'Doubt is a sign that you are stretching.\n\n'
+        'But we must not dwell on it.\n\n'
+        'Doubt can only be removed by action.',
+  ),
+  Post(
     title: 'Contentment',
     datePosted: DateTime(2025, 5, 9),
     image: 'images/1.png',
