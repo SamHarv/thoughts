@@ -8,7 +8,7 @@ List<Post> postData = [
     image: 'images/1.png',
     id: '178',
     body: 'It is normal to have doubts as we push our own limits.\n\n'
-        'Doubt is a sign that you are stretching.\n\n'
+        'Doubt is a sign that we are stretching.\n\n'
         'But we must not dwell on it.\n\n'
         'Doubt can only be removed by action.',
   ),
