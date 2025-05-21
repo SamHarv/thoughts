@@ -3,6 +3,32 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Be Curious, Not Judgemental',
+    datePosted: DateTime(2025, 5, 23),
+    image: 'images/1.png',
+    id: '179',
+    body: 'When I used to attend a public gym, I noticed behaviours in some '
+        'people, including trainers, which were harmful to their patrons.\n\n'
+        'People with little experience in the gym, often felt insecure and unsure '
+        'of themselves.\n\n'
+        'People with many years of experience were typically supportive of '
+        'beginners, but had firm beliefs about how one should train.\n\n'
+        'People with some experience but not a lot, were often the most harmful.\n\n'
+        'Many of them had a tendancy to be judgemental.\n\n'
+        'They would become over-confident in their own abilities and knowledge, '
+        'and would even scoff at people who were trying to begin in the position '
+        'they may have been in only a couple of years ago.\n\n'
+        'Trainers are taught to correct people\'s form in the gym if they deem it '
+        'incorrect.\n\n'
+        'There are many ways to train, and exercises you see others do may not '
+        'make sense to you, but they may be very specific to their goals.\n\n'
+        'If it seems someone is performing an unsafe exercise, do not rush to '
+        'correct them.\n\n'
+        'Ask them why.\n\n'
+        'Be curious, and you may learn.\n\n'
+        'This can be applied to many areas of life.',
+  ),
+  Post(
     title: 'Doubt',
     datePosted: DateTime(2025, 5, 16),
     image: 'images/1.png',
