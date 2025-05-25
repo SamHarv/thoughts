@@ -1,7 +1,20 @@
 import 'models/post_model.dart';
 
+// flutter run -d chrome --web-experimental-hot-reload
+
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
+  Post(
+    title: 'Do What Scares You',
+    datePosted: DateTime(2025, 5, 30),
+    image: 'images/1.png',
+    id: '180',
+    body: 'Grow by doing what scares you (assuming it is physically safe).\n\n'
+        'If we hide from certain experiences, we will only enhance our '
+        'fear of them.\n\n'
+        'If we lean into discomfort and fear, we can habituate ourselves '
+        'to these experiences and therefore diminish our fear.',
+  ),
   Post(
     title: 'Be Curious, Not Judgemental',
     datePosted: DateTime(2025, 5, 23),
