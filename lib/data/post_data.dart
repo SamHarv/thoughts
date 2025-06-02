@@ -5,6 +5,17 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Seek Wide Experiences',
+    datePosted: DateTime(2025, 6, 6),
+    image: 'images/1.png',
+    id: '181',
+    body: 'Inspiration can be found in unlikely places.\n\n'
+        'Do things you would not normally do.\n\n'
+        'Engage with people unlike you.\n\n'
+        'Try new things.\n\n'
+        'Seek wide experiences.',
+  ),
+  Post(
     title: 'Do What Scares You',
     datePosted: DateTime(2025, 5, 30),
     image: 'images/1.png',
