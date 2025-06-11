@@ -5,17 +5,16 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
-    title: 'You Have to Earn Relaxation',
+    title: 'Relaxation Must be Earned',
     datePosted: DateTime(2025, 6, 13),
     image: 'images/1.png',
     id: '182',
-    body: 'Have you ever tried to relax without actually exerting any effort '
-        'into anything in the days leading up to it?\n\n'
+    body: 'Have you ever tried to relax without first exerting any effort?\n\n'
         'If you are like most people, you would feel restless and perhaps even '
         'anxious.\n\n'
         'In contrast, if you have done something that requires intense physical '
-        'or cognitive effort and tried to relax afterward, you may have noticed '
-        'you found it extremely relaxing.\n\n'
+        'or cognitive effort and chosen to relax afterward, you likely '
+        'found it extremely relaxing.\n\n'
         'If we expose ourselves to discomfort or stressful effort, we can '
         'better appreciate our well-earned comforts.\n\n'
         'Relaxation without preceding effort is not relaxing.',
