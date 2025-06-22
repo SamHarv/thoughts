@@ -5,6 +5,17 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Constraints Force Innovation',
+    datePosted: DateTime(2025, 6, 27),
+    image: 'images/1.png',
+    id: '184',
+    body: 'If we had unlimited resources and unlimited prospects, it would be '
+        'difficult to be creative.\n\n'
+        'Constraints are healthy.\n\n'
+        'They force us to seek unique ways to solve our problems.\n\n'
+        '"The enemy of art is the absence of limitations" - Orson Welles',
+  ),
+  Post(
     title: 'Leadership',
     datePosted: DateTime(2025, 6, 20),
     image: 'images/1.png',
