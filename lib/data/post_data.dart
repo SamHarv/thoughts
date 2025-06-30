@@ -5,6 +5,24 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'The Evidence Pyramid',
+    datePosted: DateTime(2025, 7, 4),
+    image: 'images/1.png',
+    id: '185',
+    body: 'Everyone should be introduced to the evidence pyramid.\n\n'
+        'It represents the strength of scientific evidence based on its form.\n\n'
+        'The top is the strongest form of evidence, the bottom is the weakest.\n\n'
+        'You can Google the evidence pyramid, but I will briefly list the levels here:\n\n'
+        '1. Systematic Review (strongest) - an analysis of many studies which have been thoroughly tested and validated.\n'
+        '2. Randomised Controlled Trial - a single study which has been conducted in a controlled environment with measures in place to prevent bias.\n'
+        '3. Non-Randomised Controlled Trial - a single study which has been conducted in a controlled environment where participants are not randomly allocated to test groups.\n'
+        '4. Observational Study - a single study where observation is conducted without intervention.\n'
+        '5. Case Study - a case report described by an individual describing events in which they were involved.\n'
+        '6. Expert Opinion (weakest) - the shared opinions of experts or pundits in a given field.\n\n'
+        'If people were familiar with this pyramid, it would drastically decrease their susceptibility to misinformation and disinformation pushed by mediums which endorse expert opinion.\n\n'
+        'If we can become better informed on how scientific evidence is determined, we can strengthen our bullshit detector.',
+  ),
+  Post(
     title: 'Constraints Force Innovation',
     datePosted: DateTime(2025, 6, 27),
     image: 'images/1.png',
