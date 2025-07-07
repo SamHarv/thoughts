@@ -5,6 +5,21 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Things Will Never Be As They Were',
+    datePosted: DateTime(2025, 7, 11),
+    image: 'images/1.png',
+    id: '186',
+    body: 'I often see people trying to cling onto the past.\n\n'
+        'They follow tradition religiously in the hope that they can recapture '
+        'an experience from the past.\n\n'
+        'This is impossible.\n\n'
+        'Things change.\n\n'
+        'People change.\n\n'
+        'Things will never be as they were.\n\n'
+        'We need only accept this and keep moving forward to find new '
+        'experiences rather than trying to recreate old ones.',
+  ),
+  Post(
     title: 'The Evidence Pyramid',
     datePosted: DateTime(2025, 7, 4),
     image: 'images/1.png',
