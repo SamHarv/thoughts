@@ -9,8 +9,8 @@ List<Post> postData = [
     datePosted: DateTime(2025, 7, 11),
     image: 'images/1.png',
     id: '186',
-    body: 'I often see people trying to cling onto the past.\n\n'
-        'They follow tradition religiously in the hope that they can recapture '
+    body: 'People often cling to the past.\n\n'
+        'They follow tradition religiously in the hope they can recapture '
         'an experience from the past.\n\n'
         'This is impossible.\n\n'
         'Things change.\n\n'
