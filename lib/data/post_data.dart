@@ -5,6 +5,16 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Selectivity',
+    datePosted: DateTime(2025, 7, 18),
+    image: 'images/1.png',
+    id: '187',
+    body: 'Let the shortness of life drive your selectivity.\n\n'
+        'Be selective in how you spend your time.\n\n'
+        'Be selective in who you spend your time with.\n\n'
+        'Do less, and do it better.',
+  ),
+  Post(
     title: 'Things Will Never Be As They Were',
     datePosted: DateTime(2025, 7, 11),
     image: 'images/1.png',
