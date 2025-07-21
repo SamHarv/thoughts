@@ -5,6 +5,15 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Energy Vampires',
+    datePosted: DateTime(2025, 7, 25),
+    image: 'images/1.png',
+    id: '188',
+    body: 'Some people will energise you.\n\n'
+        'Some will drain your energy.\n\n'
+        'Surround yourself with those who energise you.',
+  ),
+  Post(
     title: 'Selectivity',
     datePosted: DateTime(2025, 7, 18),
     image: 'images/1.png',
