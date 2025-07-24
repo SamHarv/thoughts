@@ -10,7 +10,7 @@ List<Post> postData = [
     image: 'images/1.png',
     id: '188',
     body: 'Some people will energise you.\n\n'
-        'Some will drain your energy.\n\n'
+        'Some will drain you.\n\n'
         'Surround yourself with those who energise you.',
   ),
   Post(
