@@ -5,6 +5,15 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Find Work You Are Passionate About',
+    datePosted: DateTime(2025, 8, 1),
+    image: 'images/1.png',
+    id: '189',
+    body:
+        'If you are not passionate about the work you are doing, you will not enjoy it.\n\n'
+        'Find work for which you have a passion.',
+  ),
+  Post(
     title: 'Energy Vampires',
     datePosted: DateTime(2025, 7, 25),
     image: 'images/1.png',
