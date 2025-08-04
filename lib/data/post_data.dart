@@ -5,6 +5,17 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Listen',
+    datePosted: DateTime(2025, 8, 8),
+    image: 'images/1.png',
+    id: '190',
+    body: 'It is better to leave people wanting to hear more than wishing they '
+        'had heard less.\n\n'
+        'To truly engage with people, we need to learn to listen rather than '
+        'having a response pre-loaded before they finish their thought.\n\n'
+        'We have 2 ears and 1 mouth so we can listen twice as much as we speak.',
+  ),
+  Post(
     title: 'Find Work You Are Passionate About',
     datePosted: DateTime(2025, 8, 1),
     image: 'images/1.png',
