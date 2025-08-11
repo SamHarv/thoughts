@@ -5,6 +5,15 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Resentment',
+    datePosted: DateTime(2025, 8, 15),
+    image: 'images/1.png',
+    id: '191',
+    body:
+        'Resentment is like drinking poison and waiting for the other person to die.\n\n'
+        'You cannot control the thoughts or actions of others, so let them think and do as they wish and harbour no ill will toward them.',
+  ),
+  Post(
     title: 'Listen',
     datePosted: DateTime(2025, 8, 8),
     image: 'images/1.png',
