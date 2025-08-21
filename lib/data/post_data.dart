@@ -11,11 +11,11 @@ List<Post> postData = [
     id: '192',
     body: 'Many like to "go it alone", and take pride in being able to do '
         'things independently.\n\n'
-        'This is normal, as we value our independence, but sometimes, we would be'
+        'This is normal, as we value our independence, but sometimes we would be'
         ' better served accepting help.\n\n'
         'Humanity has survived and advanced to our current state through our '
         'ability to collaborate.\n\n'
-        'As social beings, that is our advantage.\n\n'
+        'As social beings, this is our advantage.\n\n'
         'If someone offers you genuine help, do not feel guilty.\n\n'
         'Accept it, and pay it forward by offering help to others where you are able.',
   ),
