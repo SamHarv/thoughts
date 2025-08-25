@@ -5,6 +5,17 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Old Dogs & New Tricks',
+    datePosted: DateTime(2025, 8, 29),
+    image: 'images/1.png',
+    id: '193',
+    body: 'It is not that an old dog is incapable of learning new tricks.\n\n'
+        'It is more often the case that an old dog is not interested in learning new tricks.\n\n'
+        'Learning should be a lifelong habit, and if people want to learn, they can.\n\n'
+        '"One who is of a calm and happy nature will hardly feel the pressure '
+        'of age, but to one who is of an opposite disposition youth and age are equally a burden" - Plato',
+  ),
+  Post(
     title: 'Accept Help',
     datePosted: DateTime(2025, 8, 22),
     image: 'images/1.png',
