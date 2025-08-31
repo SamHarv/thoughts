@@ -5,6 +5,21 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Confirmation Bias',
+    datePosted: DateTime(2025, 9, 5),
+    image: 'images/1.png',
+    id: '194',
+    body: 'The tendency to accept evidence that confirms our pre-existing '
+        'beliefs, and reject evidence that does not can be referred to as '
+        'confirmation bias.\n\n'
+        'This fallacy is due to our resistance to change our core beliefs '
+        'and values.\n\n'
+        'We should change.\n\n'
+        'We must change.\n\n'
+        'Consider new evidence deeply before you either dismiss it if it '
+        'contradicts your core beliefs, or accept it if it supports them.',
+  ),
+  Post(
     title: 'Old Dogs & New Tricks',
     datePosted: DateTime(2025, 8, 29),
     image: 'images/1.png',
