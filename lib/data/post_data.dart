@@ -9,8 +9,8 @@ List<Post> postData = [
     datePosted: DateTime(2025, 9, 5),
     image: 'images/1.png',
     id: '194',
-    body: 'The tendency to accept evidence that confirms our pre-existing '
-        'beliefs, and reject evidence that does not can be referred to as '
+    body: 'The tendency to accept evidence which confirms our pre-existing '
+        'beliefs, and reject evidence which does not can be referred to as '
         'confirmation bias.\n\n'
         'This fallacy is due to our resistance to change our core beliefs '
         'and values.\n\n'
