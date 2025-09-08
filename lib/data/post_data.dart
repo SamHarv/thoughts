@@ -5,6 +5,15 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Unplug',
+    datePosted: DateTime(2025, 9, 12),
+    image: 'images/1.png',
+    id: '195',
+    body: 'The internet was once an escape from the real world.\n\n'
+        'Now the real world is an escape from the internet.\n\n'
+        'Unplug and experience reality with all your senses.',
+  ),
+  Post(
     title: 'Confirmation Bias',
     datePosted: DateTime(2025, 9, 5),
     image: 'images/1.png',
