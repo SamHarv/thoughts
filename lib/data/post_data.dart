@@ -5,6 +5,17 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Wanting',
+    datePosted: DateTime(2025, 9, 26),
+    image: 'images/1.png',
+    id: '197',
+    body: 'Dopamine sends signals in our brain to motivate us to act.\n\n'
+        'It represents wanting and is responsible for addiction.\n\n'
+        'We need to understand that wanting something does not mean you will enjoy '
+        'it, and certainly does not mean you will like it.\n\n'
+        'Understanding this can help us choose our actions more intentionally.',
+  ),
+  Post(
     title: 'Mistakes',
     datePosted: DateTime(2025, 9, 19),
     image: 'images/1.png',
