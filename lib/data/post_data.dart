@@ -5,6 +5,15 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Ageing',
+    datePosted: DateTime(2025, 10, 10),
+    image: 'images/1.png',
+    id: '199',
+    body: 'One who is of a calm and happy nature will hardly feel the pressure '
+        'of age, but to one who is of an opposite disposition youth and age are '
+        'equally a burden" - Plato',
+  ),
+  Post(
     title: 'Limitations',
     datePosted: DateTime(2025, 10, 3),
     image: 'images/1.png',
