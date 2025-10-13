@@ -5,6 +5,14 @@ import 'models/post_model.dart';
 /// Hard-coded data for posts to be updated manually each week
 List<Post> postData = [
   Post(
+    title: 'Courage',
+    datePosted: DateTime(2025, 10, 17),
+    image: 'images/1.png',
+    id: '200',
+    body: 'Courage does not mean oversharing nor attacking others.\n\n'
+        'Courage means speaking up and showing up when you don\'t want to.',
+  ),
+  Post(
     title: 'Ageing',
     datePosted: DateTime(2025, 10, 10),
     image: 'images/1.png',
