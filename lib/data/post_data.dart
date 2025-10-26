@@ -3,7 +3,23 @@ import 'models/post_model.dart';
 // flutter run -d chrome --web-experimental-hot-reload
 
 /// Hard-coded data for posts to be updated manually each week
+
 List<Post> postData = [
+  Post(
+    title: 'Limitations of Religion',
+    datePosted: DateTime(2025, 10, 31),
+    image: 'images/1.png',
+    id: '202',
+    body: 'There is limited benefit in adhering to a singular religion.\n\n'
+        'In fact, I believe it is harmful.\n\n'
+        'There is value instead in studying a range of different religions.\n\n'
+        'This way you can identify patterns and pick out nuggets of wisdom '
+        'with which you resonate.\n\n'
+        'This leads to formation of your own unique philosophical beliefs which '
+        'align with your values.\n\n'
+        'With your own philosophical beliefs, you have the ability to change '
+        'and update them as you learn and grow.',
+  ),
   Post(
     title: 'Reflect',
     datePosted: DateTime(2025, 10, 24),
