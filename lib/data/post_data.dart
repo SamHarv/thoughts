@@ -10,15 +10,17 @@ List<Post> postData = [
     datePosted: DateTime(2025, 10, 31),
     image: 'images/1.png',
     id: '202',
-    body: 'There is limited benefit in adhering to a singular religion.\n\n'
+    body: 'There are few benefits in adhering to a singular religion.\n\n'
         'In fact, I believe it is harmful.\n\n'
         'There is value instead in studying a range of different religions.\n\n'
-        'This way you can identify patterns and pick out nuggets of wisdom '
+        'This enables you to identify patterns and pick out nuggets of wisdom '
         'with which you resonate.\n\n'
         'This leads to formation of your own unique philosophical beliefs which '
         'align with your values.\n\n'
         'With your own philosophical beliefs, you have the ability to change '
-        'and update them as you learn and grow.',
+        'and update them as you learn and grow.\n\n'
+        'This capacity for change and growth is drastically limited in '
+        'singular religion.',
   ),
   Post(
     title: 'Reflect',
