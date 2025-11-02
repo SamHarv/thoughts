@@ -6,6 +6,14 @@ import 'models/post_model.dart';
 
 List<Post> postData = [
   Post(
+    title: 'Fools',
+    datePosted: DateTime(2025, 11, 7),
+    image: 'images/1.png',
+    id: '203',
+    body: '"Any fool can criticise, condemn, and complain. And most fools '
+        'do. - Benjamin Franklin"',
+  ),
+  Post(
     title: 'Limitations of Religion',
     datePosted: DateTime(2025, 10, 31),
     image: 'images/1.png',
