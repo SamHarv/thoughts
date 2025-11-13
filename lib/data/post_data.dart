@@ -13,7 +13,7 @@ List<Post> postData = [
     body: 'A complex system that works is invariably found to have evolved '
         'from a simple system that worked.\n\n'
         'The inverse proposition also appears to be true: a complex system designed '
-        'from scratch never would and cannot be made to work.\n\n'
+        'from scratch cannot be made to work.\n\n'
         'When dealing with complexity, start small and build upon what works.',
   ),
   Post(
