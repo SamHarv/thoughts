@@ -6,6 +6,14 @@ import 'models/post_model.dart';
 
 List<Post> postData = [
   Post(
+    title: 'Adapt',
+    datePosted: DateTime(2025, 11, 21),
+    image: 'images/1.png',
+    id: '205',
+    body: '"It is not the strongest species that survives, nor the most '
+        'intelligent, but the one that is most adaptable to change." - Charles Darwin',
+  ),
+  Post(
     title: 'Gall\'s Law',
     datePosted: DateTime(2025, 11, 14),
     image: 'images/1.png',
