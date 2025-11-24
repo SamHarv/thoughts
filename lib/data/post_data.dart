@@ -6,6 +6,16 @@ import 'models/post_model.dart';
 
 List<Post> postData = [
   Post(
+    title: 'Onward',
+    datePosted: DateTime(2025, 11, 28),
+    image: 'images/1.png',
+    id: '206',
+    body: 'Some spend so much time trying to recreate old experiences that '
+        'they miss out on creating new ones.\n\n'
+        'We should often keep fond memories to be just that, memories.\n\n'
+        'This way we increase our chances of finding even greater experiences.',
+  ),
+  Post(
     title: 'Adapt',
     datePosted: DateTime(2025, 11, 21),
     image: 'images/1.png',
