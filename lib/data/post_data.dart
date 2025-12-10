@@ -6,11 +6,13 @@ import 'models/post_model.dart';
 
 List<Post> postData = [
   Post(
-    title: 'Action',
+    title: 'Action Bias',
     datePosted: DateTime(2025, 12, 12),
     image: 'images/1.png',
     id: '209',
-    body: '"The wise person desires to be slow to speak but quick to '
+    body: 'When the risk of inaction is greater than the risk of action, '
+        'take action.\n\n'
+        '"The wise person desires to be slow to speak but quick to '
         'act." - Confucius',
   ),
   Post(
