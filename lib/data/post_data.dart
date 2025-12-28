@@ -6,6 +6,15 @@ import 'models/post_model.dart';
 
 List<Post> postData = [
   Post(
+    title: 'Anger & Delay',
+    datePosted: DateTime(2026, 1, 2),
+    image: 'images/1.png',
+    id: '211',
+    body: 'The best remedy for anger is delay.\n\n'
+        'After some time has passed, you can see the insignificance of what '
+        'angered you.',
+  ),
+  Post(
     title: 'Back Yourself',
     datePosted: DateTime(2025, 12, 26),
     image: 'images/1.png',
