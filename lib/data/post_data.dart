@@ -11,6 +11,9 @@ List<Post> postData = [
     image: 'images/1.png',
     id: '212',
     body: 'Growth is uncomfortable.\n\n'
+        'We need to challenge ourselves to learn.\n\n'
+        '"The opportunity for creativity begins the moment we don\'t know what '
+        'we are doing" - Simon Sinek.\n\n'
         'Seek discomfort, seek challenge, and growth will follow.',
   ),
   Post(
