@@ -6,6 +6,17 @@ import 'models/post_model.dart';
 
 List<Post> postData = [
   Post(
+    title: 'Speak Less, Do More',
+    datePosted: DateTime(2026, 1, 23),
+    image: 'images/1.png',
+    id: '214',
+    body:
+        '"The higher type of person is modest in what they say, but exceeds in '
+        'what they do." - Confucius\n\n'
+        'Speak less, do more.\n\n'
+        'Let your actions speak for you.',
+  ),
+  Post(
     title: 'Good Habits Stockpile Ease',
     datePosted: DateTime(2026, 1, 16),
     image: 'images/1.png',
